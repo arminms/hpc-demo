@@ -1,6 +1,6 @@
 #!/bin/bash
-#SBATCH --reservation=dl_uoit_wr      # reservation name to use
-#SBATCH --account=dl_uoit_wa          # account name to use
+#SBATCH --reservation=dl_uoit_wr_gpu  # reservation name to use
+#SBATCH --account=dl_uoit_wa_gpu      # account name to use
 #SBATCH --gres=gpu:1                  # Number of GPUs (per node)
 #SBATCH --mem=4G                      # memory (per node)
 #SBATCH --time=0-00:10                # time (DD-HH:MM)
